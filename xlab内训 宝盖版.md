@@ -26,4 +26,12 @@
 
   - about CMakeLists.txt:
 
-    ![image-20250427200042317](xlab内训 宝盖版/image-20250427200042317.png)![image-20250427200209929](xlab内训 宝盖版/image-20250427200209929.png)				写完cmakelists.txt, 在终端输入`cmake .` （或`cmake --build .`?) 有空格！！
+    ![image-20250427200042317](xlab内训 宝盖版/image-20250427200042317.png)![image-20250427200209929](xlab内训 宝盖版/image-20250427200209929.png)	写完cmakelists.txt, 在终端输入`cmake .` （或`cmake --build .`?) 有空格！！能通过vscode左下角的“生成”键来生成最好。
+
+
+
+- ### about ESP32
+
+  - 当做正常的单片机就好啦。
+  - vscode上先`biuld`（√）再`upload`（→）。
+  - 一个小小点：`upload`若显示`A fatal error occurred: Could not open COM10, the port doesn't exist`，可能串口被占用，这时候检查是不是打开了串口调试助手没有关。要看隐藏的图标有没有彻底关。
