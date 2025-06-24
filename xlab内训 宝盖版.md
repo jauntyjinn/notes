@@ -62,4 +62,13 @@
 
    - cmos管：[MOS管基础-CSDN博客](https://blog.csdn.net/qq_39400113/article/details/109557613?ops_request_misc=%7B%22request%5Fid%22%3A%2275691b4cc8b581ca9de7bb4ff1d10e39%22%2C%22scm%22%3A%2220140713.130102334..%22%7D&request_id=75691b4cc8b581ca9de7bb4ff1d10e39&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-109557613-null-null.142^v102^pc_search_result_base5&utm_term=MOS场效应管（MOSFET）&spm=1018.2226.3001.4187)
 
-   
+
+
+
+## about 机电部分
+
+- SolidWorks打不开：
+
+  先remove 后install。管理员身份运行。
+
+  ![image-20250523211803320](xlab内训 宝盖版/image-20250523211803320.png)
