@@ -1,0 +1,213 @@
+=== BEGIN SESSION ==========================================================
+[19:51:06] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[19:51:06] ACIS version: 27.0.2
+[19:51:06] SPAresabs = 9.9999999999999995e-07
+[19:51:06] SPAresnor = 1.0000000000000000e-10
+[19:51:06] Reading entity list
+[19:51:06] Choosing Advanced Boolean Loop...
+[19:51:06] Volume Attributes enabled
+[19:51:06] Attaching Volume Attributes
+[19:51:06] Sorted out 3 special bodies.
+[19:51:06] Processing 2 entities.
+[19:51:06] Queue Size: 1
+[19:51:06] Adding "component1:solid1" to "component1:solid2" (Pair #1 out of 1)
+[19:51:06] Exiting Boolean Unite Module.
+[19:51:06] Added Compound Body (ID: 8, 15) to model
+[19:51:06] Added "background material" (ID: 1) to model
+[19:51:06] Added "wavequide port (Floquet) at Zmin" (ID: 84) to model
+[19:51:06] Added "wavequide port (Floquet) at Zmax" (ID: 93) to model
+[19:51:06] - Attribute database stats:
+ Vertex UIDs = 20(first = 1, last = 20)
+, Edge UIDs = 36(first = 21, last = 56)
+, Face UIDs = 21(first = 57, last = 77)
+, Cell UIDs = 4(first = 78, last = 81)
+
+[19:51:06] Using new attribute mapping scheme
+[19:51:06] Skipping wire containment calculation.
+[19:51:06] - Reading information
+[19:51:06] - Storing model cells
+[19:51:06] - OK
+[19:51:06] Creating ModelDatabase
+[19:51:06] Problem class: High Frequency
+[19:51:06] - Mesh sizes: global mesh size near to model = 1.0000000000000000e+01
+              min requested = 7.1758785983828988e+00
+              max requested = 1.0000000000000000e+01
+[19:51:06] - OK
+[19:51:06] -- Building object info
+[19:51:06] -- OK
+[19:51:06] Temporary directory: "D:\大二下课程\场波\专题研究\2\Temp\1-temp.tet"
+[19:51:06] [CADSurf] Section started.
+[19:51:06] [CADSurf] cad_add_face_multiple_periodicity_with_transformation_function
+[19:51:06] [CADSurf] fid1: 62, 63, 69, 75, fid2: 57, 58, 70, 76, transf: 0000000000000000 user_data: 0000000000000000
+[19:51:06] [CADSurf] cad_add_face_multiple_periodicity_with_transformation_function
+[19:51:06] [CADSurf] fid1: 61, 64, 68, 74, fid2: 59, 60, 71, 77, transf: 0000000000000000 user_data: 0000000000000000
+[19:51:06] [CADSurf] MeshGems Version: MeshGems-Core 2.4-1
+[19:51:06] [CADSurf] === Begin: PreCAD-related parameters ===
+[19:51:06] [CADSurf] == CADSurf Parameters == 
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "use_precad",  "yes")
+[19:51:06] [CADSurf] Bounding box diagonal = 1.1357146680919895e+02
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "remove_nano_edges",  "0")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "discard_input_topology",  "0")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "process_3d_topology",  "0")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "discard_input_2d_topology",  "0")
+[19:51:06] [CADSurf] Default periodic tolerance (1e-5*diag) = 1.1357146680919896e-03
+[19:51:06] [CADSurf] Minimum periodic tolerance = 1.0000000000000001e-05
+[19:51:06] [CADSurf] Setting it to max( 1.0000000000000001e-05, 1.1357146680919896e-03 )
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "periodic_tolerance",  "0.0011357146680919896")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "remove_duplicate_cad_faces",  "0")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "remove_tiny_uv_edges",  "0")
+[19:51:06] [CADSurf] === End: PreCAD-related parameters ===
+[19:51:06] [CADSurf] ==
+[19:51:06] [CADSurf] == CADSurf Parameters == 
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "verbose",  "3")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "geometric_size_mode",  "local")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "physical_size_mode",  "local")
+[19:51:06] [CADSurf] 	 Max user size    = 1.0000000000000000e+01
+[19:51:06] [CADSurf] 	 Global size near = 1.0000000000000000e+01
+[19:51:06] [CADSurf] 	 Global size far  = 1.0763817897574349e+01
+[19:51:06] [CADSurf] 	 Upper size bound = 1.0763817897574349e+01
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "max_size",  "10.763817897574349")
+[19:51:06] [CADSurf] 	Calculating min. mesh size for CADSurf...
+[19:51:06] [CADSurf] 	Diagonal of model + background box: 1.1357146680919895e+02
+[19:51:06] [CADSurf] 	Min. mesh size by diagonal (1e-3 x diagonal): 1.1357146680919895e-01
+[19:51:06] [CADSurf] 	Diagonal of model: 1.0392304845413264e+02
+[19:51:06] [CADSurf] 	Min. mesh size of model: 7.1758785983828988e+00
+[19:51:06] [CADSurf] 	Max. cell defined by user (near to model): 1.0000000000000000e+01
+[19:51:06] [CADSurf] 	Min. cell defined by user: 0.0000000000000000e+00
+[19:51:06] [CADSurf] 	Min. cell used for calculation: 1.0000000000000001e-01
+[19:51:06] [CADSurf] 	Note: min. mesh size by diagonal is too large, consider using (0.01 x max. cell = 1.0000000000000001e-01)
+[19:51:06] [CADSurf] Geometric refinement uses "min_size" setting.
+[19:51:06] [CADSurf] CADSurf "min_size" is set to min. cell: 1.0000000000000001e-01
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "min_size",  "0.10000000000000001")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "max_number_of_points_per_patch",  "0")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "element_generation",  "local")
+[19:51:06] [CADSurf] Setting Triangle as default element type
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "gradation",  "1.5")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "volume_gradation",  "2")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "patch_independent",  "0")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "remove_tiny_edges",  "0")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "optimise_tiny_edges",  "0")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "tiny_edge_respect_geometry",  "1")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "CheckWellDefined",  "8")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "anisotropic",  "1")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "anisotropic_ratio",  "5")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "correct_surface_intersections",  "1")
+[19:51:06] [CADSurf] meshgems_cadsurf_set_param(css, "intersection_processing_max_cost",  "15")
+[19:51:06] [CADSurf] ==
+[19:51:06] [CADSurf] Status: OK
+[19:51:06] [CADSurf] Number of intersecting edges: 0, total edge count: 116
+[19:51:06] [CADSurf] Number of intersecting faces: 0
+[19:51:06] [CADSurf] - Mesh stats: N=188, E=116, T=402, Q=0
+[19:51:06] [CADSurf] Testing watertightness
+[19:51:06] [CADSurf] - OK
+[19:51:06] [CADSurf] Section finished. Time (s): 0.064
+[19:51:06] Labeling mesh entities
+[19:51:06] Creating volume mesh from surface mesh - begin
+[19:51:06] - Submitting for meshing subdomain 1 of 4
+[19:51:06]      Name: "background material"
+[19:51:06]      File: sd_0
+[19:51:06] MeshGems:Loop:: Preparing worker for subdomain "background material"
+[19:51:06] MeshGems:Loop:: Added worker for subdomain "background material" to the workers list
+[19:51:06] - Submitting for meshing subdomain 2 of 4
+[19:51:06]      Name: "component1:solid2"
+[19:51:06]      File: sd_1
+[19:51:06] MeshGems:Loop:: Preparing worker for subdomain "component1:solid2"
+[19:51:06] MeshGems:Loop:: Added worker for subdomain "component1:solid2" to the workers list
+[19:51:06] - Submitting for meshing subdomain 3 of 4
+[19:51:06]      Name: "component1:solid1"
+[19:51:06]      File: sd_2
+[19:51:06] MeshGems:Loop:: Preparing worker for subdomain "component1:solid1"
+[19:51:06] MeshGems:Loop:: Added worker for subdomain "component1:solid1" to the workers list
+[19:51:06] - Submitting for meshing subdomain 4 of 4
+[19:51:06]      Name: "background material"
+[19:51:06]      File: sd_3
+[19:51:06] MeshGems:Loop:: Preparing worker for subdomain "background material"
+[19:51:06] MeshGems:Loop:: Added worker for subdomain "background material" to the workers list
+[19:51:06] Volume meshing: 4 threads will be allocated to mesh 4 sub-domains.
+[19:51:06] Usable physical memory (bytes):    16396247040
+[19:51:06] Available physical memory (bytes): 16396247040
+[19:51:06] Number of cores: 8
+[19:51:06] MeshGems:Loop:: Entering the Run function with 4 threads.
+[19:51:06] MeshGems:Loop:: Created pool to process workers
+[19:51:06] MeshGems:Loop:: Added  worker (subdomain "background material") to the pool
+[19:51:06] MeshGems:Loop:: Added  worker (subdomain "component1:solid2") to the pool
+[19:51:06] MeshGems:Loop:: Added  worker (subdomain "component1:solid1") to the pool
+[19:51:06] MeshGems:Loop:: Added  worker (subdomain "background material") to the pool
+[19:51:06] MeshGems:Launcher: Starting Command: D:\software\CST STUDIO SUITE 2018\AMD64\AppRunner_AMD64.exe --interval 1000 --parent 3352 --command "D:\software\CST STUDIO SUITE 2018\AMD64\mg-tetra_AMD64.exe --components outside_components --in sd_0 --key c0857585b1e6a3a25540be50a609ef685cb6904ddba7001ad9969ac5560f3f3057aab5089157abe5989e911f4f45f406c2d7a6633c405cf519 --max_memory 2048 --out sd_0_out.meshb -Dcpropa=1.5 -H-1:7.17588:2 -b -t -v 0" --output "sd_0_out.txt"
+[19:51:06] MeshGems:Launcher: Starting Command: D:\software\CST STUDIO SUITE 2018\AMD64\AppRunner_AMD64.exe --interval 1000 --parent 3352 --command "D:\software\CST STUDIO SUITE 2018\AMD64\mg-tetra_AMD64.exe --components outside_components --in sd_2 --key c0857585b1e6a3a25540be50a609ef685cb6904ddba7001ad9969ac5560f3f3057aab5089157abe5989e911f4f45f406c29fa6933c085c0519 --max_memory 2048 --out sd_2_out.meshb -Dcpropa=1.5 -H-1:7.17588:2 -b -t -v 0" --output "sd_2_out.txt"
+[19:51:06] MeshGems:Launcher: Starting Command: D:\software\CST STUDIO SUITE 2018\AMD64\AppRunner_AMD64.exe --interval 1000 --parent 3352 --command "D:\software\CST STUDIO SUITE 2018\AMD64\mg-tetra_AMD64.exe --components outside_components --in sd_1 --key c0857585b1e6a3a25540be50a609ef685cb6904ddba7001ad9969ac5560f3f3057aab5089157abe5989e911f4f45f406c2b3a6db3c245c4d19 --max_memory 2048 --out sd_1_out.meshb -Dcpropa=1.5 -H-1:10:2 -b -t -v 0" --output "sd_1_out.txt"
+[19:51:06] MeshGems:Launcher: Starting Command: D:\software\CST STUDIO SUITE 2018\AMD64\AppRunner_AMD64.exe --interval 1000 --parent 3352 --command "D:\software\CST STUDIO SUITE 2018\AMD64\mg-tetra_AMD64.exe --components outside_components --in sd_3 --key c0857585b1e6a3a25540be50a609ef685cb6904ddba7001ad9969ac5560f3f3057aab5089157abe5989e911f4f45f406c2d7a6633c405cf519 --max_memory 2048 --out sd_3_out.meshb -Dcpropa=1.5 -H-1:7.17588:2 -b -t -v 0" --output "sd_3_out.txt"
+[19:51:07] MeshGems:Loop:: All workers in the WorkerPool finished
+[19:51:07] MeshGems:Loop:: Calling forced shutdown, for safety (effective if abort was requested)
+[19:51:07] MeshGems:Loop:: Pool successfully shut down
+[19:51:07] - Number of elements for sd_0_out.meshb:73
+[19:51:07] - Number of elements for sd_1_out.meshb:201
+[19:51:07] - Number of elements for sd_2_out.meshb:502
+[19:51:07] - Number of elements for sd_3_out.meshb:78
+[19:51:07] - Volume mesh stats: Nb nodes = 250, Nb edges = 116, Nb surface elements = 402, Nb tets = 854
+[19:51:07] Creating volume mesh from surface mesh - done
+[19:51:07] Using generalized mesh output routines.
+[19:51:07] Writing Bc file
+[19:51:07] Writing gex file for volume mesh
+[19:51:07] Running model geometry simplification... 
+[19:51:07] Model geometry simplification: 0 seconds
+[19:51:07] Using generalized UID topology and model geometry output
+[19:51:07] Writing topot.tet...
+[19:51:07] Done (topot.tet)
+[19:51:07] Writing moegeom.tet ...
+[19:51:07] Done (moegeom.tet) 
+[19:51:07] Mesh curving:
+[19:51:07]     available cores:   8
+[19:51:07]     number of threads: 8 (NumberOfParallelThreads setting)
+[19:51:07] Curving elements
+[19:51:07] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[19:51:07] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[19:51:09] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[19:51:09] ACIS version: 27.0.2
+[19:51:09] SPAresabs = 9.9999999999999995e-07
+[19:51:09] SPAresnor = 1.0000000000000000e-10
+[19:51:09] Adaptive mesh refinement (pos.snap.)
+[19:51:09] - Refining mesh
+[19:51:09] Problem class: High Frequency
+[19:51:09] - OK
+[19:51:09] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[19:51:09] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[19:51:09] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[19:51:09] ACIS version: 27.0.2
+[19:51:09] SPAresabs = 9.9999999999999995e-07
+[19:51:09] SPAresnor = 1.0000000000000000e-10
+[19:51:09] Adaptive mesh refinement (pos.snap.)
+[19:51:09] - Refining mesh
+[19:51:09] Problem class: High Frequency
+[19:51:10] - OK
+[19:51:10] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[19:51:10] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[19:51:10] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[19:51:10] ACIS version: 27.0.2
+[19:51:10] SPAresabs = 9.9999999999999995e-07
+[19:51:10] SPAresnor = 1.0000000000000000e-10
+[19:51:10] Adaptive mesh refinement (pos.snap.)
+[19:51:10] - Refining mesh
+[19:51:10] Problem class: High Frequency
+[19:51:10] - OK
+[19:51:10] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[19:51:10] Done
+=== END SESSION ============================================================

@@ -1,0 +1,19 @@
+Postprocessing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based postprocessing started at: 07:51 PM Tuesday, 16. June 2026
+
+  Evaluating 'Calculate Reflectance Transmittance and Absorbance': 1 s
+
+  Total time: 1 s  ( = 0 h, 0 m, 1 s )
+
+Template based postprocessing finished at: 07:51 PM Tuesday, 16. June 2026
+----------------------------------------------------------------------------------------

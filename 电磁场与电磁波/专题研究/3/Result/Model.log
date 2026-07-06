@@ -1,0 +1,209 @@
+*** Warning ***
+
+The monitor power (f=12) is outside simulation frequency range and will be
+ignored.
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+The monitor h-field (f=12) is outside simulation frequency range and will be
+ignored.
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+The monitor e-field (f=12) is outside simulation frequency range and will be
+ignored.
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+The monitor power (f=8) is outside simulation frequency range and will be
+ignored.
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+The monitor h-field (f=8) is outside simulation frequency range and will be
+ignored.
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+The monitor e-field (f=8) is outside simulation frequency range and will be
+ignored.
+
+--------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+--------------------------------------------------------------------------------
+Boundary conditions: 
+
+  YZsymmetry: none
+  XZsymmetry: none
+  XYsymmetry: none
+
+  Xmin: unit cell
+  Xmax: unit cell
+
+  Ymin: unit cell
+  Ymax: unit cell
+
+  Zmin: open
+  Zmax: open
+
+--------------------------------------------------------------------------------
+Order settings: 
+
+  Solver order   : 2nd (constant)
+  Curved elements: up to order 3 (automatic)
+
+--------------------------------------------------------------------------------
+  Mesh time                :	0 s
+
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Frequency Domain Solver calculation cycle started
+
+--------------------------------------------------------------------------------
+Solver started at: 07:49 PM Tuesday, 16. June 2026
+
+  Module:  Frequency Domain: S-Parameter (Win 64)
+  Version: 2018.0 Release from 2017-10-26 (change 556462)
+
+--------------------------------------------------------------------------------
+The low frequency stabilization is not applied to periodic problems.
+
+--------------------------------------------------------------------------------
+  Calculation 1 of 1 (Frequency: 10 GHz, Theta: 20, Phi: 0)
+
+
+--------------------------------------------------------------------------------
+The material in port Zmin differs from the background material. Therefore, the 
+port modes correspond to theta = 30.8659 degrees (instead of theta = 20 
+degrees).
+
+--------------------------------------------------------------------------------
+The wavelength based mesh refinement has been applied to 14.7% of all mesh 
+edges.
+
+--------------------------------------------------------------------------------
+Adaptive mesh refinement pass 1
+
+--------------------------------------------------------------------------------
+  Matrix setup time        :	0 s
+  Degrees of freedom       :	10024
+  Number of mesh cells     :	1406
+
+  Stimulation port         :	Zmax
+  Mode number              :	2
+  Accuracy                 :	6.16699e-05
+  Iterations               :	19
+  Solver time              :	0 s
+
+
+--------------------------------------------------------------------------------
+11% of all mesh edges seem to be longer than expected. The adaptive mesh 
+refinement's growth limitation will therefore use 2352 instead of 679 mesh cells
+as a reference.
+
+--------------------------------------------------------------------------------
+The wavelength based mesh refinement has been applied to 0.1% of all mesh edges.
+
+--------------------------------------------------------------------------------
+Adaptive mesh refinement pass 2
+
+--------------------------------------------------------------------------------
+  Matrix setup time        :	0 s
+  Degrees of freedom       :	15242
+  Number of mesh cells     :	2160
+
+  Stimulation port         :	Zmax
+  Mode number              :	2
+  Accuracy                 :	9.74625e-05
+  Iterations               :	15
+  Solver time              :	0 s
+
+
+--------------------------------------------------------------------------------
+  Delta calculation        
+  All S-Parameters         :	0.0108659
+
+
+--------------------------------------------------------------------------------
+Adaptive mesh refinement pass 3
+
+--------------------------------------------------------------------------------
+  Matrix setup time        :	0 s
+  Degrees of freedom       :	20530
+  Number of mesh cells     :	2919
+
+  Stimulation port         :	Zmax
+  Mode number              :	2
+  Accuracy                 :	7.80663e-05
+  Iterations               :	12
+  Solver time              :	0 s
+
+
+--------------------------------------------------------------------------------
+  Delta calculation        
+  All S-Parameters         :	0.00580353
+
+
+--------------------------------------------------------------------------------
+Mesh adaptation terminated because the desired accuracy limit is reached.
+
+--------------------------------------------------------------------------------
+  Total time               :	3 s
+
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+The broadband frequency sweep convergence criterion has not yet been satisfied. 
+Please continue the broadband frequency sweep by starting the frequency domain 
+solver again with additional (preferably automatically chosen) samples.
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+The material properties in Floquet port Zmin differ from those of the 
+background. Some scan angle sweep farfield results will not be available for 
+this port.
+
+--------------------------------------------------------------------------------
+  Total Solver Time        :	3 s
+================================================================================
+
+
+
+--------------------------------------------------------------------------------
+Calculating remaining monitors.
+
+--------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+                      Peak memory used (kB)         Free physical memory (kB) 
+                                                    At begin     Minimum      
+  ----------------------------------------------------------------------------
+  Solver start        19796                         16215564     16214732     
+  Eq. system setup    207996                        16166976     15988748     
+  Eq. system solve    218800                        16153460     15984372     
+  Mesh refinement     207996                        16145552     16002268     
+  Solver run total    218884                        16215572     15998112     
+
+  Computer name       JauntyJinn
+  ----------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Creating parametric 1D results for Run ID 1
+
+--------------------------------------------------------------------------------

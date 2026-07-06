@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+23249
+[Mesh Cells]
+3,579
+[Mesh Type]
+Tetrahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Frequency Domain
+[Last Solver Type Abb]
+f
+[Results]
+Frequency Domain: S-Parameter
+[Modeler Unique ID]
+5:2.cst?b97872ae314125358098e1309b45d7c4?64482:numberofparameters=3::fport=zmin>fmode=1>zre=0>zim=0?fport=zmin>fmode=2>zre=0>zim=0?fport=zmin>fmode=3>zre=0>zim=0?fport=zmin>fmode=4>zre=0>zim=0?fport=zmin>fmode=5>zre=0>zim=0?fport=zmin>fmode=6>zre=0>zim=0?fport=zmin>fmode=7>zre=0>zim=0?fport=zmin>fmode=8>zre=0>zim=0?fport=zmin>fmode=9>zre=0>zim=0?fport=zmin>fmode=10>zre=0>zim=0?fport=zmin>fmode=11>zre=0>zim=0?fport=zmin>fmode=12>zre=0>zim=0?fport=zmin>fmode=13>zre=0>zim=0?fport=zmin>fmode=14>zre=0>zim=0?fport=zmin>fmode=15>zre=0>zim=0?fport=zmin>fmode=16>zre=0>zim=0?fport=zmin>fmode=17>zre=0>zim=0?fport=zmin>fmode=18>zre=0>zim=0?fport=zmax>fmode=1>zre=0>zim=0?fport=zmax>fmode=2>zre=0>zim=0?fport=zmax>fmode=3>zre=0>zim=0?fport=zmax>fmode=4>zre=0>zim=0?fport=zmax>fmode=5>zre=0>zim=0?fport=zmax>fmode=6>zre=0>zim=0?fport=zmax>fmode=7>zre=0>zim=0?fport=zmax>fmode=8>zre=0>zim=0?fport=zmax>fmode=9>zre=0>zim=0?fport=zmax>fmode=10>zre=0>zim=0?fport=zmax>fmode=11>zre=0>zim=0?fport=zmax>fmode=12>zre=0>zim=0?fport=zmax>fmode=13>zre=0>zim=0?fport=zmax>fmode=14>zre=0>zim=0?fport=zmax>fmode=15>zre=0>zim=0?fport=zmax>fmode=16>zre=0>zim=0?fport=zmax>fmode=17>zre=0>zim=0?fport=zmax>fmode=18>zre=0>zim=0::a?n1?n2
+[Comment]
